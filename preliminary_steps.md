@@ -152,13 +152,14 @@ If you are a MacOS or Linux user, you can make an SSH connection by using **Term
 ## Step 3: Setup Connection for Via Foundry
 
 1. Visit the Via Foundry website (https://viafoundry.umassmed.edu) and create SSH keys.
+   - To login, UMASS users can use their **UMASS email address** and **UMASS email password**. (need help: support@viascientific.com)
    - Click your profile avatar (top-right) → Credentials tab.
    - Click **Create credential**.
    - Set Credential type to **SSH** and enter any name.
    - Click **Generate keys for me**, then Save.
    - Next to your new key, click the **⋯ menu** → **View** → **Copy Button** to copy your public key. (You’ll paste this public key into the HPC website in the next step.)
   
-2. Visit the HPC site and add SSH Keys to your account:
+3. Visit the HPC site and add SSH Keys to your account:
    - Add your public SSH key to the HPC site: https://hpcportal.umassmed.edu/PublicKeys/Create  (Please use your UMASS email as username and email password for login.)
    - Please click "Create New" button
    - KeyName: Any name (e.g. ViaFoundry Key)
@@ -166,7 +167,7 @@ If you are a MacOS or Linux user, you can make an SSH connection by using **Term
 
       <img src="https://raw.githubusercontent.com/onuryukselen/bootcamp/master/images/mac-terminal3.png" width="50%">
 
-3. At the Via Foundry website, Add a New Run environment for HPC
+4. At the Via Foundry website, Add a New Run environment for HPC
    - Click Profile Icon (at the top right) -> Click Run Environments Tab -> Click **Create Environment** Button
    - Choose the Profile Name "New UMASS SCI Cluster"
    - Enter your **HPC username** (you should receive an email from HPC Admins hpc@umassmed.edu. (example cluster username: john.thomas-umw))
